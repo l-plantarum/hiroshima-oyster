@@ -1,0 +1,4 @@
+﻿season_year,area,mortality_lower_pct,mortality_upper_pct,aggregation,n_respondents,source_url,quality_flag
+2025,Hiroshima Prefecture west,30,90,official hearing range,,https://www.jfa.maff.go.jp/j/saibai/attach/pdf/kaki_youshoku-14.pdf,official_hearing_range;not_comparable_to_city_monthly_series
+2025,Hiroshima Prefecture central,70,90,official hearing range,,https://www.jfa.maff.go.jp/j/saibai/attach/pdf/kaki_youshoku-14.pdf,official_hearing_range;not_comparable_to_city_monthly_series
+2025,Hiroshima Prefecture east,70,90,official hearing range,,https://www.jfa.maff.go.jp/j/saibai/attach/pdf/kaki_youshoku-14.pdf,official_hearing_range;not_comparable_to_city_monthly_series

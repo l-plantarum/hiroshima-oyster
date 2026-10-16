@@ -1,0 +1,24 @@
+﻿season_year,mortality_oct_dec_mean_pct,mortality_oct_dec_min_pct,mortality_oct_dec_max_pct,n_months,definition,quality_flag
+2001,29.0,28,30,3,"arithmetic mean of published October, November and December mortality rates",derived_from_official_monthly_values;three_months_complete
+2002,43.0,31,55,3,"arithmetic mean of published October, November and December mortality rates",derived_from_official_monthly_values;three_months_complete
+2003,22.0,16,27,3,"arithmetic mean of published October, November and December mortality rates",derived_from_official_monthly_values;three_months_complete
+2004,44.666666666666664,40,50,3,"arithmetic mean of published October, November and December mortality rates",derived_from_official_monthly_values;three_months_complete
+2005,35.0,30,40,3,"arithmetic mean of published October, November and December mortality rates",derived_from_official_monthly_values;three_months_complete
+2006,28.333333333333332,17,38,3,"arithmetic mean of published October, November and December mortality rates",derived_from_official_monthly_values;three_months_complete
+2007,54.0,53,55,3,"arithmetic mean of published October, November and December mortality rates",derived_from_official_monthly_values;three_months_complete
+2008,30.0,28,32,3,"arithmetic mean of published October, November and December mortality rates",derived_from_official_monthly_values;three_months_complete
+2009,39.0,35,42,3,"arithmetic mean of published October, November and December mortality rates",derived_from_official_monthly_values;three_months_complete
+2010,35.333333333333336,29,44,3,"arithmetic mean of published October, November and December mortality rates",derived_from_official_monthly_values;three_months_complete
+2011,31.333333333333332,20,38,3,"arithmetic mean of published October, November and December mortality rates",derived_from_official_monthly_values;three_months_complete
+2012,45.0,34,58,3,"arithmetic mean of published October, November and December mortality rates",derived_from_official_monthly_values;three_months_complete
+2013,29.333333333333332,26,34,3,"arithmetic mean of published October, November and December mortality rates",derived_from_official_monthly_values;three_months_complete
+2014,23.333333333333332,17,30,3,"arithmetic mean of published October, November and December mortality rates",derived_from_official_monthly_values;three_months_complete
+2015,17.666666666666668,0,29,3,"arithmetic mean of published October, November and December mortality rates",derived_from_official_monthly_values;three_months_complete
+2016,39.666666666666664,33,43,3,"arithmetic mean of published October, November and December mortality rates",derived_from_official_monthly_values;three_months_complete
+2017,41.333333333333336,40,43,3,"arithmetic mean of published October, November and December mortality rates",derived_from_official_monthly_values;three_months_complete
+2018,33.666666666666664,30,38,3,"arithmetic mean of published October, November and December mortality rates",derived_from_official_monthly_values;three_months_complete
+2019,35.333333333333336,33,37,3,"arithmetic mean of published October, November and December mortality rates",derived_from_official_monthly_values;three_months_complete
+2020,37.666666666666664,36,41,3,"arithmetic mean of published October, November and December mortality rates",derived_from_official_monthly_values;three_months_complete
+2021,22.333333333333332,19,26,3,"arithmetic mean of published October, November and December mortality rates",derived_from_official_monthly_values;three_months_complete
+2022,48.0,41,52,3,"arithmetic mean of published October, November and December mortality rates",derived_from_official_monthly_values;three_months_complete
+2023,33.333333333333336,28,39,3,"arithmetic mean of published October, November and December mortality rates",derived_from_official_monthly_values;three_months_complete

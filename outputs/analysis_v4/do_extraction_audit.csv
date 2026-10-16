@@ -1,0 +1,12 @@
+﻿year,source_report,candidate_pages,n_complete_do_dates,status,note
+2013,H25,44;45,12,parsed,"No DO values imputed. Published rows are three-station spatial means, not individual-site raw data."
+2014,H26,44;45,10,parsed,"No DO values imputed. Published rows are three-station spatial means, not individual-site raw data."
+2015,H27,42;43,0,official_missing_instrument_failure,"No DO values imputed. Published rows are three-station spatial means, not individual-site raw data."
+2016,H28,43;44,16,parsed,"No DO values imputed. Published rows are three-station spatial means, not individual-site raw data."
+2017,H29,44;45,13,parsed,"No DO values imputed. Published rows are three-station spatial means, not individual-site raw data."
+2018,H30,43;44,14,parsed,"No DO values imputed. Published rows are three-station spatial means, not individual-site raw data."
+2019,H31,21;22,13,parsed,"No DO values imputed. Published rows are three-station spatial means, not individual-site raw data."
+2020,R2,23;24,15,parsed,"No DO values imputed. Published rows are three-station spatial means, not individual-site raw data."
+2021,R3,25;26,19,parsed,"No DO values imputed. Published rows are three-station spatial means, not individual-site raw data."
+2022,R4,22;23,20,parsed,"No DO values imputed. Published rows are three-station spatial means, not individual-site raw data."
+2023,R5,22;23,17,parsed,"No DO values imputed. Published rows are three-station spatial means, not individual-site raw data."

@@ -1,0 +1,7 @@
+﻿check,result,detail
+paper_digitization_reproduces_R2,PASS,digitized=0.511669
+mortality_series_close,PASS,all annual differences <5 percentage points
+do_no_interpolation_flag,PASS,rows=745
+do_years,PASS,years=10
+do_range,PASS,0-20 mg/L
+model_gate_applied,PASS,suite_complete_n=8

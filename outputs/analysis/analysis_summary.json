@@ -1,0 +1,17 @@
+{
+  "created_at": "2026-10-16T08:54:50.725962+09:00",
+  "annual_rows": 26,
+  "observation_feature_rows": 1227,
+  "lag_rows": 279,
+  "best_rain_to_river": [
+    {
+      "path": "Rain -> River",
+      "driver": "rainfall_mm",
+      "response": "river_flow_m3_s",
+      "lag_days": 1,
+      "n_pairs": 8760,
+      "pearson_r": 0.6109069917900951,
+      "spearman_r": 0.36741290794937925
+    }
+  ]
+}

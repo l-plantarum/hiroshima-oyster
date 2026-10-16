@@ -1,0 +1,8 @@
+﻿case,n,r_squared,paper_reported_r_squared
+paper_digitized_full_2000_2020,21,0.5116685320545324,0.5122
+paper_digitized_common_2001_2019,19,0.4532840947654072,0.5122
+paper_temperature_our_mortality_common,19,0.4536382702189255,0.5122
+our_temperature_paper_mortality_common,19,0.35249685795871594,0.5122
+our_reproduction_common,19,0.3526536502990558,0.5122
+paper_temperature_our_mortality_valid_coverage,17,0.37897188315713654,0.5122
+our_temperature_our_mortality_valid_coverage,17,0.13884161814159932,0.5122

@@ -1,0 +1,10 @@
+﻿path,driver,response,lag_days,n_pairs,pearson_r,spearman_r
+Rain -> River,rainfall_mm,river_flow_m3_s,1,8760,0.6109069917900951,0.36741290794937925
+rainfall_mm -> salinity_0m,rainfall_mm,salinity_0m,3,1225,-0.3513014343102984,-0.22843963177946083
+rainfall_mm -> salinity_10m,rainfall_mm,salinity_10m,29,1221,-0.09983056684075498,-0.07382916013708263
+rainfall_mm -> salinity_2m,rainfall_mm,salinity_2m,26,1222,-0.1782454188426679,-0.1814208699681973
+rainfall_mm -> salinity_5m,rainfall_mm,salinity_5m,29,1221,-0.16980563458177061,-0.11839385653935153
+river_flow_m3_s -> salinity_0m,river_flow_m3_s,salinity_0m,1,1133,-0.669172435545707,-0.6255982869526702
+river_flow_m3_s -> salinity_10m,river_flow_m3_s,salinity_10m,28,1133,-0.20453729564867815,-0.10178819642623346
+river_flow_m3_s -> salinity_2m,river_flow_m3_s,salinity_2m,2,1133,-0.4771904177852813,-0.4332887318087046
+river_flow_m3_s -> salinity_5m,river_flow_m3_s,salinity_5m,14,1133,-0.32820798444309335,-0.22739983420281137

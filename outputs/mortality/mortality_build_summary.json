@@ -1,0 +1,17 @@
+{
+  "retrieved_at": "2026-10-16T09:08:48+09:00",
+  "monthly_rows": 184,
+  "seasons": [
+    2001,
+    2023
+  ],
+  "annual_oct_dec_rows": 23,
+  "daily_master_rows": 9420,
+  "checks_passed": 8,
+  "checks_total": 8,
+  "limitations": [
+    "2024 same-definition city annual report not located",
+    "2025 values are regional hearing ranges and are not merged with the city monthly series",
+    "cumulative tables do not report yearly denominators/depth"
+  ]
+}

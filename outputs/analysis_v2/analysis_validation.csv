@@ -1,0 +1,8 @@
+﻿check,result,detail
+season_unique,PASS,23 mortality seasons
+outcome_complete,PASS,23/23
+outcome_range,PASS,17.67-54.00%
+predictor_timing,PASS,June-October predictors precede or overlap October-December outcome boundary
+do_excluded,PASS,DO remains unavailable and was not silently imputed
+monthly_not_daily_duplicated,PASS,"outcome taken from annual Oct-Dec table, not repeated daily keys"
+small_n_flagged,PASS,all inferential outputs labeled exploratory

@@ -1,0 +1,14 @@
+﻿check,result,detail
+master_date_unique,PASS,rows=9420
+date_contiguous,PASS,daily calendar spine
+range_water_temperature_0m,PASS,"outside [-2,40]=0"
+range_water_temperature_2m,PASS,"outside [-2,40]=0"
+range_water_temperature_5m,PASS,"outside [-2,40]=0"
+range_water_temperature_10m,PASS,"outside [-2,40]=0"
+range_salinity_0m,PASS,"outside [0,40]=0"
+range_salinity_2m,PASS,"outside [0,40]=0"
+range_salinity_5m,PASS,"outside [0,40]=0"
+range_salinity_10m,PASS,"outside [0,40]=0"
+range_rainfall_mm,PASS,"outside [0,1000]=0"
+range_river_flow_m3_s,PASS,"outside [0,100000]=0"
+rain_river_separate,PASS,"independent columns, stations, aggregation and flags"

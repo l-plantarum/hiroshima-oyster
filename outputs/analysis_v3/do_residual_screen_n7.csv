@@ -1,0 +1,6 @@
+﻿feature,n,correlation_with_mortality,correlation_with_heat_model_residual,quality_flag
+do_0m_annual_min_mg_L,6,-0.229991518784171,0.42451561300527746,exploratory_only;n=7;annual_minimum;no_inference
+do_2m_annual_min_mg_L,6,-0.31969553730471256,0.3413130739168833,exploratory_only;n=7;annual_minimum;no_inference
+do_5m_annual_min_mg_L,6,0.44772169121200633,0.685253521846347,exploratory_only;n=7;annual_minimum;no_inference
+do_10m_annual_min_mg_L,6,-0.2560709597778077,0.3037404834314795,exploratory_only;n=7;annual_minimum;no_inference
+do_b1m_annual_min_mg_L,6,-0.6082629961602674,0.062127805238492526,exploratory_only;n=7;annual_minimum;no_inference

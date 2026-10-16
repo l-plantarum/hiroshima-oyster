@@ -1,0 +1,4 @@
+﻿driver,response,lag_days,n_pairs,effective_n_ar1_approx,pearson_r_anomaly,normal_approx_p_ar1_adjusted
+rainfall_mm_anom,river_flow_m3_s_anom,1,8760,6540.664099798298,0.6015040427274961,0.0
+rainfall_mm_anom,salinity_0m_anom,2,1225,1122.4254261373205,-0.40068533176752574,1.5950188610886842e-48
+river_flow_m3_s_anom,salinity_0m_anom,1,1133,811.6280120715072,-0.6599089867183435,7.620363138018892e-138

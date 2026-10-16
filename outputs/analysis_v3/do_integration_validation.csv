@@ -1,0 +1,7 @@
+check,result,detail
+annual_year_unique,PASS,rows=23
+do_join_no_row_expansion,PASS,before=23;after=23
+verified_do_years,PASS,joined=7;source=7
+complete_residual_do_years,PASS,n=6;2020 lacks accumulated-temperature residual
+do_range,PASS,expected 0-20 mg/L
+no_daily_imputation,PASS,annual minima retained only in annual feature table

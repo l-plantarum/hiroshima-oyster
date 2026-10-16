@@ -1,0 +1,5 @@
+﻿check,result,detail
+row_count,PASS,7 years
+range,PASS,all DO minima 0-20 mg/L
+station_set_documented,PASS,three-station DO mean differs from five-station temperature/salinity mean
+2015_missing,PASS,H27 report states DO missing due instrument malfunction

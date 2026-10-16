@@ -1,0 +1,4 @@
+﻿path,driver,response,lag_days,n_pairs,pearson_r,spearman_r
+Rain -> River,rainfall_mm,river_flow_m3_s,1,8760,0.6109069917900951,0.3674129079493792
+river_flow_m3_s -> salinity_0m,river_flow_m3_s,salinity_0m,1,1133,-0.669172435545707,-0.6255982869526702
+rainfall_mm -> salinity_0m,rainfall_mm,salinity_0m,3,1225,-0.3513014343102984,-0.2284396317794608

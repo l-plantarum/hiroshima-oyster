@@ -1,0 +1,11 @@
+﻿feature,column,n,pearson_r,spearman_r,permutation_p_two_sided,quality_flag
+heat_x_salinity,heat_x_salinity,21,0.5141244561779362,0.4691358024691358,0.0155,exploratory;multiple_testing_not_adjusted;small_n
+dry_spell,max_dry_spell_days,23,-0.4408911811852241,-0.4213432711334492,0.0338,exploratory;multiple_testing_not_adjusted;small_n
+salinity_mean,salinity_0m_mean,21,0.40691433353217693,0.400909681611436,0.0683,exploratory;multiple_testing_not_adjusted;small_n
+heat_obs_dd25,water_temperature_0m_obs_degree_days_above_25c,21,0.3741418213056402,0.3924626380766732,0.0911,exploratory;multiple_testing_not_adjusted;small_n
+heat_x_low_salinity,heat_x_low_salinity,21,-0.37024234511254006,-0.3521767381416504,0.0987,exploratory;multiple_testing_not_adjusted;small_n
+rain,rain_sum_mm,23,-0.2870756966389369,-0.20909540286702913,0.1869,exploratory;multiple_testing_not_adjusted;small_n
+salinity_min,salinity_0m_min,21,0.2837905643077594,0.350227420402859,0.2132,exploratory;multiple_testing_not_adjusted;small_n
+river,river_flow_mean_m3_s,23,-0.25422664017460955,-0.25154436152159143,0.2442,exploratory;multiple_testing_not_adjusted;small_n
+heat_mean,water_temperature_0m_mean,21,0.2484008095316146,0.3170890188434048,0.2786,exploratory;multiple_testing_not_adjusted;small_n
+heat_max,water_temperature_0m_max,21,0.016951168478658483,0.06389484806500478,0.9412,exploratory;multiple_testing_not_adjusted;small_n

@@ -1,0 +1,24 @@
+﻿check,result,detail
+master_date_unique,PASS,rows=9420
+date_contiguous,PASS,daily calendar spine
+range_water_temperature_0m,PASS,"outside [-2,40]=0"
+range_water_temperature_2m,PASS,"outside [-2,40]=0"
+range_water_temperature_5m,PASS,"outside [-2,40]=0"
+range_water_temperature_10m,PASS,"outside [-2,40]=0"
+range_salinity_0m,PASS,"outside [0,40]=0"
+range_salinity_2m,PASS,"outside [0,40]=0"
+range_salinity_5m,PASS,"outside [0,40]=0"
+range_salinity_10m,PASS,"outside [0,40]=0"
+range_rainfall_mm,PASS,"outside [0,1000]=0"
+range_river_flow_m3_s,PASS,"outside [0,100000]=0"
+rain_river_separate,PASS,"independent columns, stations, aggregation and flags"
+monthly_row_count,PASS,184 rows; expected 23 seasons x 8 months = 184
+unique_season_month,PASS,season_year + month unique
+rate_range,PASS,range 0-58%
+oct_dec_complete,PASS,all 23 seasons have Oct-Dec values
+H27_spot_check,PASS,"chronological Oct-May values=[0, 24, 29, 23, 19, 15, 4, 1]"
+master_date_unique,PASS,9420 daily keys
+master_monthly_nonmissing,PASS,184 monthly keys populated
+annual_feature_merge,PASS,23 seasons matched to Jun-Oct feature table
+mortality_daily_granularity,PASS,all mortality values occur on month-start observation keys
+mortality_2024_2026_not_fabricated,PASS,no incompatible 2025 event ranges or unavailable later values inserted into monthly series

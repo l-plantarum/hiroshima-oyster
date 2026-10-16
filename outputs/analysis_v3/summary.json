@@ -1,0 +1,144 @@
+{
+  "reproduction": [
+    {
+      "n": 19,
+      "intercept": 18.870261693818414,
+      "slope": 0.008183624906819184,
+      "r_squared": 0.35265365029905615,
+      "pearson_r": 0.5938464871488724,
+      "loocv_rmse": 7.553174901501014,
+      "period": "available_overlap_2001_2020",
+      "year_start_available": 2001,
+      "year_end_available": 2020,
+      "paper_reported_r_squared": 0.5122,
+      "r2_difference_vs_paper": -0.15954634970094383
+    },
+    {
+      "n": 19,
+      "intercept": 18.870261693818414,
+      "slope": 0.008183624906819184,
+      "r_squared": 0.35265365029905615,
+      "pearson_r": 0.5938464871488724,
+      "loocv_rmse": 7.553174901501014,
+      "period": "paper_period_2000_2020_requested_but_2000_unavailable",
+      "year_start_available": 2001,
+      "year_end_available": 2020,
+      "paper_reported_r_squared": 0.5122,
+      "r2_difference_vs_paper": -0.15954634970094383
+    },
+    {
+      "n": 22,
+      "intercept": 18.895892056465776,
+      "slope": 0.007979472819042176,
+      "r_squared": 0.2835819820649398,
+      "pearson_r": 0.5325241610151972,
+      "loocv_rmse": 8.093588584639782,
+      "period": "extended_2001_2023",
+      "year_start_available": 2001,
+      "year_end_available": 2023,
+      "paper_reported_r_squared": 0.5122,
+      "r2_difference_vs_paper": -0.2286180179350602
+    }
+  ],
+  "best_windows": [
+    {
+      "window": "Jul-Aug",
+      "feature": "temp0_obs_dd_above25",
+      "n": 20,
+      "pearson_r": 0.49050918805329174,
+      "spearman_r": 0.34838224228743414
+    },
+    {
+      "window": "Aug-Sep",
+      "feature": "temp0_obs_dd_above25",
+      "n": 20,
+      "pearson_r": 0.456812687512929,
+      "spearman_r": 0.40707298720842733
+    },
+    {
+      "window": "Jul-Oct",
+      "feature": "max_dry_spell_days",
+      "n": 23,
+      "pearson_r": -0.44653553152598846,
+      "spearman_r": -0.4213432711334492
+    },
+    {
+      "window": "Jun-Oct",
+      "feature": "max_dry_spell_days",
+      "n": 23,
+      "pearson_r": -0.4408911811852241,
+      "spearman_r": -0.4213432711334492
+    },
+    {
+      "window": "Aug-Sep",
+      "feature": "temp0_mean_c",
+      "n": 20,
+      "pearson_r": 0.43206085605449607,
+      "spearman_r": 0.48532731376975163
+    },
+    {
+      "window": "Jun-Oct",
+      "feature": "salinity0_mean_psu",
+      "n": 21,
+      "pearson_r": 0.4069143335321767,
+      "spearman_r": 0.400909681611436
+    },
+    {
+      "window": "Jun-Jul",
+      "feature": "salinity0_mean_psu",
+      "n": 20,
+      "pearson_r": 0.37969582377500605,
+      "spearman_r": 0.4281414597441685
+    },
+    {
+      "window": "Aug-Sep",
+      "feature": "rain_sum_mm",
+      "n": 23,
+      "pearson_r": -0.37661337778551673,
+      "spearman_r": -0.34247591853529047
+    },
+    {
+      "window": "Jul-Oct",
+      "feature": "temp0_obs_dd_above25",
+      "n": 21,
+      "pearson_r": 0.3741418213056403,
+      "spearman_r": 0.3924626380766732
+    },
+    {
+      "window": "Jun-Oct",
+      "feature": "temp0_obs_dd_above25",
+      "n": 21,
+      "pearson_r": 0.3741418213056403,
+      "spearman_r": 0.3924626380766732
+    }
+  ],
+  "best_anomaly_lags": [
+    {
+      "driver": "rainfall_mm_anom",
+      "response": "river_flow_m3_s_anom",
+      "lag_days": 1,
+      "n_pairs": 8760,
+      "effective_n_ar1_approx": 6540.664099798298,
+      "pearson_r_anomaly": 0.6015040427274961,
+      "normal_approx_p_ar1_adjusted": 0.0
+    },
+    {
+      "driver": "rainfall_mm_anom",
+      "response": "salinity_0m_anom",
+      "lag_days": 2,
+      "n_pairs": 1225,
+      "effective_n_ar1_approx": 1122.4254261373205,
+      "pearson_r_anomaly": -0.40068533176752574,
+      "normal_approx_p_ar1_adjusted": 1.5950188610886842e-48
+    },
+    {
+      "driver": "river_flow_m3_s_anom",
+      "response": "salinity_0m_anom",
+      "lag_days": 1,
+      "n_pairs": 1133,
+      "effective_n_ar1_approx": 811.6280120715072,
+      "pearson_r_anomaly": -0.6599089867183435,
+      "normal_approx_p_ar1_adjusted": 7.620363138018892e-138
+    }
+  ]
+}

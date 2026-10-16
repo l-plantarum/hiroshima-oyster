@@ -1,0 +1,10 @@
+﻿variable,year,reason
+dissolved_oxygen_mg_L,2001-2026,環境省公共用水域の年別検体値は地点・深度・測定法の調和が必要で、検証済み一括取得を本実行では完了できず
+satellite_sst_c / satellite_chla_mg_m3,2001-2026,MODIS/Sentinel-3/GCOM-Cの認証済み取得、雲品質マスク、広島湾画素抽出を未実行
+parquet,all,"Unable to find a usable engine; tried using: 'pyarrow', 'fastparquet'.
+A suitable version of pyarrow or fastparquet is required for parquet support.
+Trying to import the above resulted in these errors:
+ - `Import pyarrow` failed. pyarrow is required for parquet support. Use pip or conda to install the pyarrow package.
+ - `Import fastparquet` failed. fastparquet is required for parquet support. Use pip or conda to install the fastparquet package."
+oyster_mortality_rate_pct,2024,同一定義の広島市水産振興センター年次業務報告書を確認できず欠測。
+oyster_mortality_rate_pct,2025,水産庁の地域別聞き取りレンジは取得済みだが、広島市月別業者調査系列と定義が異なるため日次マスターへ未結合。

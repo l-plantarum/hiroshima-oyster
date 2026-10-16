@@ -1,0 +1,6 @@
+﻿model,complete_case_n,parameters_including_intercept,minimum_required_n,eligible_for_loocv,suite_complete_n,suite_gate_minimum_n,decision
+Heat,22,2,20,False,8,20,do_not_fit_switch_to_event_control
+Heat+Salinity,20,3,20,False,8,20,do_not_fit_switch_to_event_control
+Heat+DO,9,3,20,False,8,20,do_not_fit_switch_to_event_control
+Heat+Salinity+DO,8,4,20,False,8,20,do_not_fit_switch_to_event_control
+Heat+DO+Heat×DO,9,4,20,False,8,20,do_not_fit_switch_to_event_control

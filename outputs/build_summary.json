@@ -1,0 +1,10 @@
+{
+  "built_at": "2026-10-16T08:37:39+09:00",
+  "master_rows": 9420,
+  "water_observation_dates": 1227,
+  "rain_days": 9419,
+  "river_days": 8761,
+  "provenance_files": 647,
+  "validation_pass": 13,
+  "validation_fail": 0
+}

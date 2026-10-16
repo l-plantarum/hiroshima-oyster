@@ -1,0 +1,15 @@
+{
+  "paper_reported_r2": 0.5122,
+  "paper_figure_digitized_r2": 0.5116685320545324,
+  "our_previous_r2": 0.3526536502990558,
+  "cause": [
+    "Missing endpoint years 2000 and 2020 reduce the paper-digitized R2 on the common period.",
+    "Mortality substitution has negligible effect on R2.",
+    "Accumulated-temperature inputs are the dominant discrepancy: 2002 official HTML duplicates 2001; 2014/2015 are incomplete; remaining years often differ by ~30-80 C-day from Figure 12.",
+    "The paper labels Figure 12 as 0.5 m, while the current master uses published 0 m city means; the paper does not publish an annual numeric table, so residual source-snapshot differences cannot be resolved without author data."
+  ],
+  "do_observation_dates": 149,
+  "do_years": 10,
+  "model_suite_complete_n": 8,
+  "model_decision": "No LOOCV model comparison; insufficient annual complete cases. Event/control analysis used."
+}

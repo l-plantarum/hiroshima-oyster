@@ -1,0 +1,62 @@
+{
+  "created_at": "2026-10-16T09:24:46.463541+09:00",
+  "mortality_seasons": 23,
+  "complete_multivariable_years": 21,
+  "best_loocv_model": {
+    "model": "heat_salinity",
+    "n": 21,
+    "predictors": 2,
+    "r_squared": 0.3134036095092597,
+    "adjusted_r_squared": 0.23711512167695525,
+    "aicc": 86.69396080434754,
+    "loocv_rmse_pct_points": 7.9249767851611095,
+    "loocv_mae_pct_points": 6.629139356323263,
+    "null_loocv_rmse_pct_points": 8.368426109822297,
+    "loocv_skill_vs_null": 0.052990767778984815,
+    "quality_flag": "exploratory_ols;standardized_predictors;small_n;no_causal_interpretation"
+  },
+  "mortality_highest": [
+    {
+      "season_year": 2007,
+      "mortality_oct_dec_mean_pct": 54.0
+    },
+    {
+      "season_year": 2022,
+      "mortality_oct_dec_mean_pct": 48.0
+    },
+    {
+      "season_year": 2012,
+      "mortality_oct_dec_mean_pct": 45.0
+    },
+    {
+      "season_year": 2004,
+      "mortality_oct_dec_mean_pct": 44.66666666666666
+    },
+    {
+      "season_year": 2002,
+      "mortality_oct_dec_mean_pct": 43.0
+    }
+  ],
+  "mortality_lowest": [
+    {
+      "season_year": 2015,
+      "mortality_oct_dec_mean_pct": 17.666666666666668
+    },
+    {
+      "season_year": 2003,
+      "mortality_oct_dec_mean_pct": 22.0
+    },
+    {
+      "season_year": 2021,
+      "mortality_oct_dec_mean_pct": 22.33333333333333
+    },
+    {
+      "season_year": 2014,
+      "mortality_oct_dec_mean_pct": 23.33333333333333
+    },
+    {
+      "season_year": 2006,
+      "mortality_oct_dec_mean_pct": 28.33333333333333
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+﻿check,status,detail
+monthly_row_count,PASS,184 rows; expected 23 seasons x 8 months = 184
+unique_season_month,PASS,season_year + month unique
+rate_range,PASS,range 0-58%
+oct_dec_complete,PASS,all 23 seasons have Oct-Dec values
+H27_spot_check,PASS,"chronological Oct-May values=[0, 24, 29, 23, 19, 15, 4, 1]"
+master_date_unique,PASS,9420 daily keys
+master_monthly_nonmissing,PASS,184 monthly keys populated
+annual_feature_merge,PASS,23 seasons matched to Jun-Oct feature table

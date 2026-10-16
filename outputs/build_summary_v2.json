@@ -1,0 +1,15 @@
+{
+  "built_at": "2026-10-16T08:37:39+09:00",
+  "master_rows": 9420,
+  "water_observation_dates": 1227,
+  "rain_days": 9419,
+  "river_days": 8761,
+  "provenance_files": 647,
+  "validation_pass": 23,
+  "validation_fail": 0,
+  "version": "v2_mortality_integrated",
+  "mortality_monthly_observations": 184,
+  "mortality_seasons": "2001-2023",
+  "mortality_annual_oct_dec_rows": 23,
+  "notes": "Mortality is monthly and stored only on month-start keys; 2025 event ranges remain separate."
+}

@@ -1,0 +1,6 @@
+﻿check,result,detail
+annual_year_unique,PASS,26 years
+water_observations_not_interpolated,PASS,1227 exact observation dates
+lag_direction_documented,PASS,positive lag = driver precedes response
+candidate_years_not_overclaimed,PASS,2002/2016/2022 explicitly unverified; 2025 official-report confirmed
+rain_river_separate,PASS,separate variables throughout

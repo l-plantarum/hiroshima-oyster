@@ -1,0 +1,8 @@
+﻿check,result,detail
+paper_definition_encoded,PASS,"annual minimum-temperature date to Sep 30; max(T-10,0); linear daily interpolation"
+paper_outcome_encoded,PASS,October-December mean mortality
+paper_overlap_period,PASS,2001-2020; year 2000 unavailable
+interaction_restricted,PASS,only Heat + Salinity + standardized product
+seasonality_removed_lags,PASS,calendar-month climatology removed
+ar1_effective_n,PASS,approximate AR(1) effective sample size reported
+do_not_imputed,PASS,DO not present and not imputed

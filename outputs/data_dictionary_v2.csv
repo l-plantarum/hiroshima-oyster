@@ -1,0 +1,42 @@
+﻿variable,definition,unit,missing_representation,notes
+date,,,blank/NA,See source/station/aggregation/quality columns and provenance.csv
+rainfall_mm,Daily precipitation total,mm,blank/NA,See source/station/aggregation/quality columns and provenance.csv
+rainfall_quality_flag,,,blank/NA,See source/station/aggregation/quality columns and provenance.csv
+rainfall_station,,,blank/NA,See source/station/aggregation/quality columns and provenance.csv
+rainfall_aggregation,,,blank/NA,See source/station/aggregation/quality columns and provenance.csv
+rainfall_source_url,,,blank/NA,See source/station/aggregation/quality columns and provenance.csv
+river_flow_m3_s,Daily mean discharge derived from available hourly values,m3/s,blank/NA,See source/station/aggregation/quality columns and provenance.csv
+river_flow_n_hourly,,,blank/NA,See source/station/aggregation/quality columns and provenance.csv
+river_flow_quality_flag,,,blank/NA,See source/station/aggregation/quality columns and provenance.csv
+river_station,,,blank/NA,See source/station/aggregation/quality columns and provenance.csv
+river_aggregation,,,blank/NA,See source/station/aggregation/quality columns and provenance.csv
+river_source_url,,,blank/NA,See source/station/aggregation/quality columns and provenance.csv
+source,,,blank/NA,See source/station/aggregation/quality columns and provenance.csv
+station,,,blank/NA,See source/station/aggregation/quality columns and provenance.csv
+aggregation,,,blank/NA,See source/station/aggregation/quality columns and provenance.csv
+source_url,,,blank/NA,See source/station/aggregation/quality columns and provenance.csv
+retrieved_at,,,blank/NA,See source/station/aggregation/quality columns and provenance.csv
+quality_flag,,,blank/NA,See source/station/aggregation/quality columns and provenance.csv
+water_temperature_0m,Hiroshima Bay spatial-mean in-situ water temperature at 0 m,degC,blank/NA,See source/station/aggregation/quality columns and provenance.csv
+salinity_0m,Hiroshima Bay spatial-mean practical salinity at 0 m,psu,blank/NA,See source/station/aggregation/quality columns and provenance.csv
+ph_0m,,,blank/NA,See source/station/aggregation/quality columns and provenance.csv
+water_temperature_2m,Hiroshima Bay spatial-mean in-situ water temperature at 2 m,degC,blank/NA,See source/station/aggregation/quality columns and provenance.csv
+salinity_2m,Hiroshima Bay spatial-mean practical salinity at 2 m,psu,blank/NA,See source/station/aggregation/quality columns and provenance.csv
+ph_2m,,,blank/NA,See source/station/aggregation/quality columns and provenance.csv
+water_temperature_5m,Hiroshima Bay spatial-mean in-situ water temperature at 5 m,degC,blank/NA,See source/station/aggregation/quality columns and provenance.csv
+salinity_5m,Hiroshima Bay spatial-mean practical salinity at 5 m,psu,blank/NA,See source/station/aggregation/quality columns and provenance.csv
+ph_5m,,,blank/NA,See source/station/aggregation/quality columns and provenance.csv
+water_temperature_10m,Hiroshima Bay spatial-mean in-situ water temperature at 10 m,degC,blank/NA,See source/station/aggregation/quality columns and provenance.csv
+salinity_10m,Hiroshima Bay spatial-mean practical salinity at 10 m,psu,blank/NA,See source/station/aggregation/quality columns and provenance.csv
+ph_10m,,,blank/NA,See source/station/aggregation/quality columns and provenance.csv
+dissolved_oxygen_mg_L,Dissolved oxygen; placeholder not acquired,mg/L,blank/NA,See source/station/aggregation/quality columns and provenance.csv
+satellite_sst_c,Satellite sea-surface temperature; placeholder not acquired,degC,blank/NA,See source/station/aggregation/quality columns and provenance.csv
+satellite_chla_mg_m3,Satellite chlorophyll-a; placeholder not acquired,mg/m3,blank/NA,See source/station/aggregation/quality columns and provenance.csv
+do_quality_flag,,,blank/NA,See source/station/aggregation/quality columns and provenance.csv
+satellite_quality_flag,,,blank/NA,See source/station/aggregation/quality columns and provenance.csv
+oyster_mortality_rate_pct,Published monthly oyster mortality rate from the city operator survey,percent,blank/NA,Populated only on the first day of each reported month; do not treat as daily
+oyster_mortality_season_year,Season start year; October-May season,year,blank/NA,October-December use calendar year; January-May belong to prior season year
+oyster_mortality_aggregation,Temporal and survey aggregation stated for mortality,text,blank/NA,Monthly operator-survey summary
+oyster_mortality_station,Survey population/geographic scope,text,blank/NA,Hiroshima City oyster producers; city-wide summary
+oyster_mortality_source_url,Official annual report URL,URL,blank/NA,See mortality_provenance.csv
+oyster_mortality_quality_flag,Mortality provenance/granularity/missingness flag,text,blank/NA,Explicitly distinguishes monthly observations from other daily keys
